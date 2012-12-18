@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="88dp"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etIdade"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="156dp"
+        android:ems="10"
+        android:inputType="number" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btTelaMain"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="425dp"
+        android:text="Voltar" />
+
+    <Button
+        android:id="@+id/btTela2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="222dp"
+        android:layout_y="425dp"
+        android:text="Prossegir" 
+        />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="167dp"
+        android:text="Idade:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="104dp"
+        android:text="Nome:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="41dp"
+        android:text="Gostariamos de te conhecer:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</AbsoluteLayout>

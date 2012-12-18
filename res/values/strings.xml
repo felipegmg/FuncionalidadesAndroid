@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ModoGraficoActivity!</string>
+    <string name="app_name">Apresentação</string>
+    <string name="UFF">Universidade Federal Fluminense</string>
+    <string name="AplicacaoDeTestes">Aplicação de Apresentação</string>
+    <string name="Creditos">Feito por Felipe Garcia</string>
+    <string name="encerrar">Encerrar Sessão</string>
+
+</resources>
